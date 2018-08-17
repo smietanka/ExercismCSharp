@@ -1,0 +1,1 @@
+It's just a my solutions to tasks in exercism.io at C# track
