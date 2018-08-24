@@ -9,10 +9,6 @@ public static class Raindrops
         if(number % 3 == 0) result.Add("Pling");
         if (number % 5 == 0) result.Add("Plang");
         if (number % 7 == 0) result.Add("Plong");
-        if(result.Any())
-        {
-            return string.Join("", result);
-        }
-        return number.ToString();
+        return result.Any() ? string.Join("", result) : number.ToString();
     }
 }
